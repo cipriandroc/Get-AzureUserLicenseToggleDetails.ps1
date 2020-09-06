@@ -36,7 +36,7 @@
         The -username positional parameter allows the user alias to be placed first, script also adds default domain to form the userPrincipalName in case it's missing.
 
         .LINK
-        Blog Article: https://wordpress.com/block-editor/post/cipriandroc.wordpress.com/349
+        Blog Article: https://cipriandroc.wordpress.com/2020/09/05/get-azurelicensetoggledetails-ps1/
 		
 		.LINK
 		GitHub Repo : https://github.com/cipriandroc/Get-AzureUserLicenseToggleDetails.ps1
