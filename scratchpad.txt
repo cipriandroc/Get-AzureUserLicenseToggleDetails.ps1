@@ -1,0 +1,9 @@
+#getindex of string
+$index = ($package.meta.attributes.keys.localname).IndexOf('InstallDate')
+####install_date
+@{Name = "InstallDate"; Expression = { ([datetime]::ParseExact( ($_.meta.attributes.values)[$index], 'yyyyMMdd', $null)).toshortdatestring() } }]
+#try install date index
+foreach($p in $package) { 
+    $index = ($p.meta.attributes.keys.localname).IndexOf('InstallDate')
+    $index 
+}
